@@ -58,6 +58,17 @@
     <Compile Include="FontDialog.Designer.cs">
       <DependentUpon>FontDialog.cs</DependentUpon>
     </Compile>
+    <Compile Include="Page1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Page1.resx</DependentUpon>
+    </Compile>
+    <Compile Include="PictureBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PictureBox.Designer.cs">
+      <DependentUpon>PictureBox.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="ControlMainForm.resx">
@@ -65,6 +76,13 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FontDialog.resx">
       <DependentUpon>FontDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Page1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Page1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PictureBox.resx">
+      <DependentUpon>PictureBox.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -87,6 +105,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1572584071246.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1572584091128.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1572584123787.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngsucai_132862_f4dbb2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

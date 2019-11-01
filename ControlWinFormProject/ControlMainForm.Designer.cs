@@ -63,7 +63,7 @@
             // toolStripLabel1
             // 
             this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(31, 22);
+            this.toolStripLabel1.Size = new System.Drawing.Size(32, 22);
             this.toolStripLabel1.Text = "離開";
             this.toolStripLabel1.Click += new System.EventHandler(this.toolStripLabel1_Click);
             // 
@@ -148,6 +148,7 @@
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(130, 45);
             this.button8.TabIndex = 105;
+            this.button8.Text = "紅綠燈";
             this.button8.UseVisualStyleBackColor = true;
             // 
             // button5
@@ -190,10 +191,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Calisto MT", 21.75F);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F);
             this.label1.Location = new System.Drawing.Point(275, 32);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(252, 34);
+            this.label1.Size = new System.Drawing.Size(253, 33);
             this.label1.TabIndex = 115;
             this.label1.Text = "C# Control Project";
             // 
