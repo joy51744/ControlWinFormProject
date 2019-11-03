@@ -71,7 +71,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Name = "FontDialog";
-            this.Text = "FontDialog";
+            this.Text = "C#控制項專案 | 字體對話框";
             this.ResumeLayout(false);
             this.PerformLayout();
 

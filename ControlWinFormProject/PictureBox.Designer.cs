@@ -35,17 +35,17 @@
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.pictureBoxRed = new System.Windows.Forms.PictureBox();
-            this.pictureBoxYellow = new System.Windows.Forms.PictureBox();
             this.pictureBoxGreen = new System.Windows.Forms.PictureBox();
+            this.pictureBoxYellow = new System.Windows.Forms.PictureBox();
+            this.pictureBoxRed = new System.Windows.Forms.PictureBox();
             this.buttonStart = new System.Windows.Forms.Button();
             this.buttonEnd = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.toolStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxRed)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxYellow)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxGreen)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxYellow)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxRed)).BeginInit();
             this.SuspendLayout();
             // 
             // labelSec
@@ -73,7 +73,7 @@
             // toolStripLabel1
             // 
             this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(32, 22);
+            this.toolStripLabel1.Size = new System.Drawing.Size(31, 22);
             this.toolStripLabel1.Text = "離開";
             // 
             // toolStripSeparator1
@@ -98,13 +98,13 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "groupBox1";
             // 
-            // pictureBoxRed
+            // pictureBoxGreen
             // 
-            this.pictureBoxRed.Location = new System.Drawing.Point(16, 28);
-            this.pictureBoxRed.Name = "pictureBoxRed";
-            this.pictureBoxRed.Size = new System.Drawing.Size(100, 98);
-            this.pictureBoxRed.TabIndex = 0;
-            this.pictureBoxRed.TabStop = false;
+            this.pictureBoxGreen.Location = new System.Drawing.Point(242, 28);
+            this.pictureBoxGreen.Name = "pictureBoxGreen";
+            this.pictureBoxGreen.Size = new System.Drawing.Size(100, 98);
+            this.pictureBoxGreen.TabIndex = 2;
+            this.pictureBoxGreen.TabStop = false;
             // 
             // pictureBoxYellow
             // 
@@ -114,13 +114,13 @@
             this.pictureBoxYellow.TabIndex = 1;
             this.pictureBoxYellow.TabStop = false;
             // 
-            // pictureBoxGreen
+            // pictureBoxRed
             // 
-            this.pictureBoxGreen.Location = new System.Drawing.Point(242, 28);
-            this.pictureBoxGreen.Name = "pictureBoxGreen";
-            this.pictureBoxGreen.Size = new System.Drawing.Size(100, 98);
-            this.pictureBoxGreen.TabIndex = 2;
-            this.pictureBoxGreen.TabStop = false;
+            this.pictureBoxRed.Location = new System.Drawing.Point(16, 28);
+            this.pictureBoxRed.Name = "pictureBoxRed";
+            this.pictureBoxRed.Size = new System.Drawing.Size(100, 98);
+            this.pictureBoxRed.TabIndex = 0;
+            this.pictureBoxRed.TabStop = false;
             // 
             // buttonStart
             // 
@@ -157,14 +157,14 @@
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.labelSec);
             this.Name = "PictureBox";
-            this.Text = "PictureBox";
+            this.Text = "C#控制項專案 | 紅綠燈";
             this.Load += new System.EventHandler(this.PictureBox_Load);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxRed)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxYellow)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxGreen)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxYellow)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxRed)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
