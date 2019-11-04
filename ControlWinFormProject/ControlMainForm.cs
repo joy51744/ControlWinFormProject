@@ -53,7 +53,7 @@ namespace ControlWinFormProject
 
         private void buttonComboBox_Click(object sender, EventArgs e)
         {
-            ComboBox comboBox = new ComboBox();
+            ComboBoxControl comboBox = new ComboBoxControl();
             this.Visible = false;
             comboBox.Show();
         }
@@ -72,25 +72,26 @@ namespace ControlWinFormProject
             picture.Show();
         }
 
-        private void buttonToolTip_Click(object sender, EventArgs e)
-        {
-            ToolTip toolTip = new ToolTip();
-            this.Visible = false;
-            toolTip.Show();
-        }
-
-        private void buttonScrollBar_Click(object sender, EventArgs e)
-        {
-            ScrollBar scrollBar = new ScrollBar();
-            this.Visible = false;
-            scrollBar.Show();
-        }
-
         private void buttonTrackBar_Click(object sender, EventArgs e)
         {
             TrackBar trackBar = new TrackBar();
             this.Visible = false;
             trackBar.Show();
+        }
+
+        private void buttonMenuStrip_Click(object sender, EventArgs e)
+        {
+            MenuStrip menuStrip = new MenuStrip();
+            this.Visible = false;
+            menuStrip.Show();
+        }
+
+        private void buttonStatusStrip_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void buttonDateTimePicker_Click(object sender, EventArgs e)
+        {
         }
 
         private void buttonNumericUpDown_Click(object sender, EventArgs e)

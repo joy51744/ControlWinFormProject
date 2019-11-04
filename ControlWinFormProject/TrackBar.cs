@@ -23,5 +23,17 @@ namespace ControlWinFormProject
             this.Visible = false;
             main.Show();
         }
+
+        private void trackBar1_ValueChanged(object sender, EventArgs e)
+        {
+            trackBar1.Minimum = 10;
+            trackBar1.Maximum = 72;
+            label1.Font = new Font("標楷體", trackBar1.Value);
+        }
+
+        private void TrackBar_Load(object sender, EventArgs e)
+        {
+            label1.Font = new Font("標楷體", 10);
+        }
     }
 }

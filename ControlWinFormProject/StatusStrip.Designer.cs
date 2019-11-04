@@ -1,6 +1,6 @@
 ﻿namespace ControlWinFormProject
 {
-    partial class ScrollBar
+    partial class StatusStrip
     {
         /// <summary>
         /// Required designer variable.
@@ -50,9 +50,9 @@
             // toolStripLabel1
             // 
             this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(32, 22);
+            this.toolStripLabel1.Size = new System.Drawing.Size(31, 22);
             this.toolStripLabel1.Text = "離開";
-            this.toolStripLabel1.Click += new System.EventHandler(this.ToolStripLabel1_Click);
+            this.toolStripLabel1.Click += new System.EventHandler(this.toolStripLabel1_Click);
             // 
             // toolStripSeparator1
             // 
@@ -64,14 +64,14 @@
             this.toolStripSeparator2.Name = "toolStripSeparator2";
             this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
             // 
-            // ScrollBar
+            // StatusStrip
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.toolStrip1);
-            this.Name = "ScrollBar";
-            this.Text = "C#控制項專案 | 調整圖片大小";
+            this.Name = "StatusStrip";
+            this.Text = "C#控制項專案 | 視窗狀態欄";
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             this.ResumeLayout(false);

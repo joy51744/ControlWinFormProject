@@ -60,7 +60,7 @@
             // toolStripLabel1
             // 
             this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(32, 22);
+            this.toolStripLabel1.Size = new System.Drawing.Size(31, 22);
             this.toolStripLabel1.Text = "離開";
             this.toolStripLabel1.Click += new System.EventHandler(this.ToolStripLabel1_Click);
             // 
@@ -109,7 +109,7 @@
             // radioButtonPlus
             // 
             this.radioButtonPlus.AutoSize = true;
-            this.radioButtonPlus.Location = new System.Drawing.Point(148, 56);
+            this.radioButtonPlus.Location = new System.Drawing.Point(152, 56);
             this.radioButtonPlus.Name = "radioButtonPlus";
             this.radioButtonPlus.Size = new System.Drawing.Size(29, 16);
             this.radioButtonPlus.TabIndex = 7;
@@ -120,7 +120,7 @@
             // radioButtonSubtract
             // 
             this.radioButtonSubtract.AutoSize = true;
-            this.radioButtonSubtract.Location = new System.Drawing.Point(148, 85);
+            this.radioButtonSubtract.Location = new System.Drawing.Point(152, 85);
             this.radioButtonSubtract.Name = "radioButtonSubtract";
             this.radioButtonSubtract.Size = new System.Drawing.Size(27, 16);
             this.radioButtonSubtract.TabIndex = 8;
@@ -131,7 +131,7 @@
             // radioButtonMultiply
             // 
             this.radioButtonMultiply.AutoSize = true;
-            this.radioButtonMultiply.Location = new System.Drawing.Point(148, 114);
+            this.radioButtonMultiply.Location = new System.Drawing.Point(152, 114);
             this.radioButtonMultiply.Name = "radioButtonMultiply";
             this.radioButtonMultiply.Size = new System.Drawing.Size(29, 16);
             this.radioButtonMultiply.TabIndex = 9;
@@ -142,7 +142,7 @@
             // radioButtonDivide
             // 
             this.radioButtonDivide.AutoSize = true;
-            this.radioButtonDivide.Location = new System.Drawing.Point(148, 143);
+            this.radioButtonDivide.Location = new System.Drawing.Point(152, 143);
             this.radioButtonDivide.Name = "radioButtonDivide";
             this.radioButtonDivide.Size = new System.Drawing.Size(26, 16);
             this.radioButtonDivide.TabIndex = 10;

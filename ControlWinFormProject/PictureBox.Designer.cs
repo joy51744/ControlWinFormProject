@@ -60,10 +60,6 @@
             // 
             // toolStrip1
             // 
-            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripLabel1,
-            this.toolStripSeparator1,
-            this.toolStripSeparator2});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Size = new System.Drawing.Size(584, 25);
@@ -73,7 +69,7 @@
             // toolStripLabel1
             // 
             this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(32, 22);
+            this.toolStripLabel1.Size = new System.Drawing.Size(31, 22);
             this.toolStripLabel1.Text = "離開";
             this.toolStripLabel1.Click += new System.EventHandler(this.ToolStripLabel1_Click);
             // 
@@ -104,6 +100,7 @@
             this.pictureBoxGreen.Location = new System.Drawing.Point(242, 28);
             this.pictureBoxGreen.Name = "pictureBoxGreen";
             this.pictureBoxGreen.Size = new System.Drawing.Size(100, 98);
+            this.pictureBoxGreen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxGreen.TabIndex = 2;
             this.pictureBoxGreen.TabStop = false;
             // 
@@ -112,6 +109,7 @@
             this.pictureBoxYellow.Location = new System.Drawing.Point(129, 28);
             this.pictureBoxYellow.Name = "pictureBoxYellow";
             this.pictureBoxYellow.Size = new System.Drawing.Size(100, 98);
+            this.pictureBoxYellow.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxYellow.TabIndex = 1;
             this.pictureBoxYellow.TabStop = false;
             // 
@@ -120,6 +118,7 @@
             this.pictureBoxRed.Location = new System.Drawing.Point(16, 28);
             this.pictureBoxRed.Name = "pictureBoxRed";
             this.pictureBoxRed.Size = new System.Drawing.Size(100, 98);
+            this.pictureBoxRed.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBoxRed.TabIndex = 0;
             this.pictureBoxRed.TabStop = false;
             // 

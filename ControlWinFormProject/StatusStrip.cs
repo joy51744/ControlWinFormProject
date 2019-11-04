@@ -10,19 +10,18 @@ using System.Windows.Forms;
 
 namespace ControlWinFormProject
 {
-    public partial class ScrollBar : Form
+    public partial class StatusStrip : Form
     {
-        public ScrollBar()
+        public StatusStrip()
         {
             InitializeComponent();
         }
 
-        private void ToolStripLabel1_Click(object sender, EventArgs e)
+        private void toolStripLabel1_Click(object sender, EventArgs e)
         {
             ControlMainForm main = new ControlMainForm();
             this.Visible = false;
             main.Show();
-
         }
     }
 }

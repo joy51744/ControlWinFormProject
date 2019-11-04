@@ -10,19 +10,18 @@ using System.Windows.Forms;
 
 namespace ControlWinFormProject
 {
-    public partial class ToolTip : Form
+    public partial class DateTimePicker : Form
     {
-        public ToolTip()
+        public DateTimePicker()
         {
             InitializeComponent();
         }
 
-        private void ToolStripLabel1_Click(object sender, EventArgs e)
+        private void toolStripLabel1_Click(object sender, EventArgs e)
         {
             ControlMainForm main = new ControlMainForm();
             this.Visible = false;
             main.Show();
-
         }
     }
 }

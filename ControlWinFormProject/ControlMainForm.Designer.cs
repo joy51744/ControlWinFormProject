@@ -33,11 +33,8 @@
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.buttonNumericUpDown = new System.Windows.Forms.Button();
-            this.buttonToolTip = new System.Windows.Forms.Button();
-            this.buttonComboBox = new System.Windows.Forms.Button();
             this.buttonCheckBox = new System.Windows.Forms.Button();
             this.buttonFontDialog = new System.Windows.Forms.Button();
-            this.buttonScrollBar = new System.Windows.Forms.Button();
             this.buttonListBox = new System.Windows.Forms.Button();
             this.buttonCheckedListBox = new System.Windows.Forms.Button();
             this.buttonTrackBar = new System.Windows.Forms.Button();
@@ -49,14 +46,17 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
+            this.buttonMenuStrip = new System.Windows.Forms.Button();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.buttonStatusStrip = new System.Windows.Forms.Button();
+            this.label10 = new System.Windows.Forms.Label();
+            this.buttonDateTimePicker = new System.Windows.Forms.Button();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -75,7 +75,7 @@
             // toolStripLabel1
             // 
             this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(32, 22);
+            this.toolStripLabel1.Size = new System.Drawing.Size(31, 22);
             this.toolStripLabel1.Text = "離開";
             this.toolStripLabel1.Click += new System.EventHandler(this.toolStripLabel1_Click);
             // 
@@ -92,35 +92,13 @@
             // buttonNumericUpDown
             // 
             this.buttonNumericUpDown.Font = new System.Drawing.Font("標楷體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.buttonNumericUpDown.Location = new System.Drawing.Point(644, 232);
+            this.buttonNumericUpDown.Location = new System.Drawing.Point(634, 232);
             this.buttonNumericUpDown.Name = "buttonNumericUpDown";
             this.buttonNumericUpDown.Size = new System.Drawing.Size(130, 45);
             this.buttonNumericUpDown.TabIndex = 11;
             this.buttonNumericUpDown.Text = "簡易加減乘除";
             this.buttonNumericUpDown.UseVisualStyleBackColor = true;
             this.buttonNumericUpDown.Click += new System.EventHandler(this.buttonNumericUpDown_Click);
-            // 
-            // buttonToolTip
-            // 
-            this.buttonToolTip.Font = new System.Drawing.Font("標楷體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.buttonToolTip.Location = new System.Drawing.Point(438, 232);
-            this.buttonToolTip.Name = "buttonToolTip";
-            this.buttonToolTip.Size = new System.Drawing.Size(130, 45);
-            this.buttonToolTip.TabIndex = 8;
-            this.buttonToolTip.Text = "提示小工具";
-            this.buttonToolTip.UseVisualStyleBackColor = true;
-            this.buttonToolTip.Click += new System.EventHandler(this.buttonToolTip_Click);
-            // 
-            // buttonComboBox
-            // 
-            this.buttonComboBox.Font = new System.Drawing.Font("標楷體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.buttonComboBox.Location = new System.Drawing.Point(232, 232);
-            this.buttonComboBox.Name = "buttonComboBox";
-            this.buttonComboBox.Size = new System.Drawing.Size(130, 45);
-            this.buttonComboBox.TabIndex = 5;
-            this.buttonComboBox.Text = "簡易投票";
-            this.buttonComboBox.UseVisualStyleBackColor = true;
-            this.buttonComboBox.Click += new System.EventHandler(this.buttonComboBox_Click);
             // 
             // buttonCheckBox
             // 
@@ -144,21 +122,10 @@
             this.buttonFontDialog.UseVisualStyleBackColor = true;
             this.buttonFontDialog.Click += new System.EventHandler(this.buttonFontDialog_Click);
             // 
-            // buttonScrollBar
-            // 
-            this.buttonScrollBar.Font = new System.Drawing.Font("標楷體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.buttonScrollBar.Location = new System.Drawing.Point(438, 374);
-            this.buttonScrollBar.Name = "buttonScrollBar";
-            this.buttonScrollBar.Size = new System.Drawing.Size(130, 45);
-            this.buttonScrollBar.TabIndex = 9;
-            this.buttonScrollBar.Text = "調整圖片大小";
-            this.buttonScrollBar.UseVisualStyleBackColor = true;
-            this.buttonScrollBar.Click += new System.EventHandler(this.buttonScrollBar_Click);
-            // 
             // buttonListBox
             // 
             this.buttonListBox.Font = new System.Drawing.Font("標楷體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.buttonListBox.Location = new System.Drawing.Point(232, 374);
+            this.buttonListBox.Location = new System.Drawing.Point(232, 232);
             this.buttonListBox.Name = "buttonListBox";
             this.buttonListBox.Size = new System.Drawing.Size(130, 45);
             this.buttonListBox.TabIndex = 6;
@@ -180,10 +147,10 @@
             // buttonTrackBar
             // 
             this.buttonTrackBar.Font = new System.Drawing.Font("標楷體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.buttonTrackBar.Location = new System.Drawing.Point(644, 90);
+            this.buttonTrackBar.Location = new System.Drawing.Point(438, 90);
             this.buttonTrackBar.Name = "buttonTrackBar";
             this.buttonTrackBar.Size = new System.Drawing.Size(130, 45);
-            this.buttonTrackBar.TabIndex = 10;
+            this.buttonTrackBar.TabIndex = 9;
             this.buttonTrackBar.Text = "調整字型大小";
             this.buttonTrackBar.UseVisualStyleBackColor = true;
             this.buttonTrackBar.Click += new System.EventHandler(this.buttonTrackBar_Click);
@@ -191,7 +158,7 @@
             // buttonPictureBox
             // 
             this.buttonPictureBox.Font = new System.Drawing.Font("標楷體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.buttonPictureBox.Location = new System.Drawing.Point(438, 90);
+            this.buttonPictureBox.Location = new System.Drawing.Point(232, 374);
             this.buttonPictureBox.Name = "buttonPictureBox";
             this.buttonPictureBox.Size = new System.Drawing.Size(130, 45);
             this.buttonPictureBox.TabIndex = 7;
@@ -252,7 +219,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(436, 138);
+            this.label4.Location = new System.Drawing.Point(230, 422);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(57, 12);
             this.label4.TabIndex = 118;
@@ -267,19 +234,10 @@
             this.label5.TabIndex = 119;
             this.label5.Text = "RadioButton";
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(230, 280);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(60, 12);
-            this.label6.TabIndex = 120;
-            this.label6.Text = "ComboBox";
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(230, 422);
+            this.label7.Location = new System.Drawing.Point(230, 280);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(42, 12);
             this.label7.TabIndex = 121;
@@ -294,28 +252,10 @@
             this.label8.TabIndex = 122;
             this.label8.Text = "CheckBox";
             // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(436, 280);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(43, 12);
-            this.label9.TabIndex = 123;
-            this.label9.Text = "ToolTip";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(436, 422);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(49, 12);
-            this.label10.TabIndex = 124;
-            this.label10.Text = "ScrollBar";
-            // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(642, 138);
+            this.label11.Location = new System.Drawing.Point(436, 138);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(49, 12);
             this.label11.TabIndex = 125;
@@ -324,7 +264,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(642, 280);
+            this.label12.Location = new System.Drawing.Point(632, 280);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(87, 12);
             this.label12.TabIndex = 126;
@@ -339,29 +279,88 @@
             this.label13.TabIndex = 127;
             this.label13.Text = "CheckedListBox";
             // 
+            // buttonMenuStrip
+            // 
+            this.buttonMenuStrip.Font = new System.Drawing.Font("標楷體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.buttonMenuStrip.Location = new System.Drawing.Point(438, 232);
+            this.buttonMenuStrip.Name = "buttonMenuStrip";
+            this.buttonMenuStrip.Size = new System.Drawing.Size(130, 45);
+            this.buttonMenuStrip.TabIndex = 10;
+            this.buttonMenuStrip.Text = "字型設定";
+            this.buttonMenuStrip.UseVisualStyleBackColor = true;
+            this.buttonMenuStrip.Click += new System.EventHandler(this.buttonMenuStrip_Click);
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(436, 280);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(54, 12);
+            this.label9.TabIndex = 129;
+            this.label9.Text = "MenuStrip";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(436, 422);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(54, 12);
+            this.label6.TabIndex = 131;
+            this.label6.Text = "StatusStrip";
+            // 
+            // buttonStatusStrip
+            // 
+            this.buttonStatusStrip.Font = new System.Drawing.Font("標楷體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.buttonStatusStrip.Location = new System.Drawing.Point(438, 374);
+            this.buttonStatusStrip.Name = "buttonStatusStrip";
+            this.buttonStatusStrip.Size = new System.Drawing.Size(130, 45);
+            this.buttonStatusStrip.TabIndex = 130;
+            this.buttonStatusStrip.Text = "視窗狀態欄";
+            this.buttonStatusStrip.UseVisualStyleBackColor = true;
+            this.buttonStatusStrip.Click += new System.EventHandler(this.buttonStatusStrip_Click);
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(632, 138);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(79, 12);
+            this.label10.TabIndex = 133;
+            this.label10.Text = "DateTimePicker";
+            // 
+            // buttonDateTimePicker
+            // 
+            this.buttonDateTimePicker.Font = new System.Drawing.Font("標楷體", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.buttonDateTimePicker.Location = new System.Drawing.Point(634, 90);
+            this.buttonDateTimePicker.Name = "buttonDateTimePicker";
+            this.buttonDateTimePicker.Size = new System.Drawing.Size(130, 45);
+            this.buttonDateTimePicker.TabIndex = 132;
+            this.buttonDateTimePicker.UseVisualStyleBackColor = true;
+            this.buttonDateTimePicker.Click += new System.EventHandler(this.buttonDateTimePicker_Click);
+            // 
             // ControlMainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.buttonDateTimePicker);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.buttonStatusStrip);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.buttonMenuStrip);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.buttonNumericUpDown);
-            this.Controls.Add(this.buttonToolTip);
-            this.Controls.Add(this.buttonComboBox);
             this.Controls.Add(this.buttonCheckBox);
             this.Controls.Add(this.buttonFontDialog);
-            this.Controls.Add(this.buttonScrollBar);
             this.Controls.Add(this.buttonListBox);
             this.Controls.Add(this.buttonCheckedListBox);
             this.Controls.Add(this.buttonTrackBar);
@@ -386,11 +385,8 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
         private System.Windows.Forms.Button buttonNumericUpDown;
-        private System.Windows.Forms.Button buttonToolTip;
-        private System.Windows.Forms.Button buttonComboBox;
         private System.Windows.Forms.Button buttonCheckBox;
         private System.Windows.Forms.Button buttonFontDialog;
-        private System.Windows.Forms.Button buttonScrollBar;
         private System.Windows.Forms.Button buttonListBox;
         private System.Windows.Forms.Button buttonCheckedListBox;
         private System.Windows.Forms.Button buttonTrackBar;
@@ -402,14 +398,17 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Button buttonMenuStrip;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button buttonStatusStrip;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Button buttonDateTimePicker;
     }
 }
 

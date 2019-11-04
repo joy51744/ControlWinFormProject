@@ -64,17 +64,23 @@
     <Compile Include="CheckedListBox.Designer.cs">
       <DependentUpon>CheckedListBox.cs</DependentUpon>
     </Compile>
-    <Compile Include="ComboBox.cs">
+    <Compile Include="ComboBoxControl.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ComboBox.Designer.cs">
-      <DependentUpon>ComboBox.cs</DependentUpon>
+    <Compile Include="ComboBoxControl.Designer.cs">
+      <DependentUpon>ComboBoxControl.cs</DependentUpon>
     </Compile>
     <Compile Include="ControlMainForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ControlMainForm.Designer.cs">
       <DependentUpon>ControlMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DateTimePicker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DateTimePicker.Designer.cs">
+      <DependentUpon>DateTimePicker.cs</DependentUpon>
     </Compile>
     <Compile Include="FontDialog.cs">
       <SubType>Form</SubType>
@@ -87,6 +93,12 @@
     </Compile>
     <Compile Include="ListBox.Designer.cs">
       <DependentUpon>ListBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuStrip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuStrip.Designer.cs">
+      <DependentUpon>MenuStrip.cs</DependentUpon>
     </Compile>
     <Compile Include="NumericUpDown.cs">
       <SubType>Form</SubType>
@@ -131,23 +143,22 @@
       <DependentUpon>Progress4.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="RadioButton.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="RadioButton.Designer.cs">
       <DependentUpon>RadioButton.cs</DependentUpon>
     </Compile>
-    <Compile Include="ScrollBar.cs">
+    <Compile Include="StatusStrip.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ScrollBar.Designer.cs">
-      <DependentUpon>ScrollBar.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ToolTip.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ToolTip.Designer.cs">
-      <DependentUpon>ToolTip.cs</DependentUpon>
+    <Compile Include="StatusStrip.Designer.cs">
+      <DependentUpon>StatusStrip.cs</DependentUpon>
     </Compile>
     <Compile Include="TrackBar.cs">
       <SubType>Form</SubType>
@@ -161,17 +172,23 @@
     <EmbeddedResource Include="CheckedListBox.resx">
       <DependentUpon>CheckedListBox.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ComboBox.resx">
-      <DependentUpon>ComboBox.cs</DependentUpon>
+    <EmbeddedResource Include="ComboBoxControl.resx">
+      <DependentUpon>ComboBoxControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ControlMainForm.resx">
       <DependentUpon>ControlMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DateTimePicker.resx">
+      <DependentUpon>DateTimePicker.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FontDialog.resx">
       <DependentUpon>FontDialog.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ListBox.resx">
       <DependentUpon>ListBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuStrip.resx">
+      <DependentUpon>MenuStrip.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NumericUpDown.resx">
       <DependentUpon>NumericUpDown.cs</DependentUpon>
@@ -197,21 +214,14 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="RadioButton.resx">
       <DependentUpon>RadioButton.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ScrollBar.resx">
-      <DependentUpon>ScrollBar.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ToolTip.resx">
-      <DependentUpon>ToolTip.cs</DependentUpon>
+    <EmbeddedResource Include="StatusStrip.resx">
+      <DependentUpon>StatusStrip.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TrackBar.resx">
       <DependentUpon>TrackBar.cs</DependentUpon>

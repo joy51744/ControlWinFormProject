@@ -22,7 +22,6 @@ namespace ControlWinFormProject
             ControlMainForm main = new ControlMainForm();
             this.Visible = false;
             main.Show();
-
         }
 
         private void Button1_Click(object sender, EventArgs e)
@@ -31,6 +30,24 @@ namespace ControlWinFormProject
             decimal sum = 0;
             n1 = numericUpDown1.Value;
             n2 = numericUpDown2.Value;
+
+            if (radioButtonPlus.Checked == true)
+            {
+                sum = n1 + n2;
+            }
+            else if (radioButtonSubtract.Checked == true)
+            {
+                sum = n1 - n2;
+            }
+            else if (radioButtonMultiply.Checked == true)
+            {
+                sum = n1 * n2;
+            }
+            else if (radioButtonDivide.Checked == true)
+            {
+                sum = n1 / n2;
+            }
+            labelOutput.Text = Convert.ToString(sum);
         }
     }
 }
