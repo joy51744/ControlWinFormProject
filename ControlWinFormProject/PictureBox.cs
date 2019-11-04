@@ -118,5 +118,13 @@ namespace ControlWinFormProject
                 }
             }
         }
+
+        private void ToolStripLabel1_Click(object sender, EventArgs e)
+        {
+            ControlMainForm main = new ControlMainForm();
+            this.Visible = false;
+            main.Show();
+
+        }
     }
 }

@@ -75,7 +75,7 @@
             // toolStripLabel1
             // 
             this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(31, 22);
+            this.toolStripLabel1.Size = new System.Drawing.Size(32, 22);
             this.toolStripLabel1.Text = "離開";
             this.toolStripLabel1.Click += new System.EventHandler(this.toolStripLabel1_Click);
             // 
@@ -96,7 +96,7 @@
             this.buttonNumericUpDown.Name = "buttonNumericUpDown";
             this.buttonNumericUpDown.Size = new System.Drawing.Size(130, 45);
             this.buttonNumericUpDown.TabIndex = 11;
-            this.buttonNumericUpDown.Text = "小數點相加";
+            this.buttonNumericUpDown.Text = "簡易加減乘除";
             this.buttonNumericUpDown.UseVisualStyleBackColor = true;
             this.buttonNumericUpDown.Click += new System.EventHandler(this.buttonNumericUpDown_Click);
             // 

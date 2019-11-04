@@ -73,8 +73,9 @@
             // toolStripLabel1
             // 
             this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(31, 22);
+            this.toolStripLabel1.Size = new System.Drawing.Size(32, 22);
             this.toolStripLabel1.Text = "離開";
+            this.toolStripLabel1.Click += new System.EventHandler(this.ToolStripLabel1_Click);
             // 
             // toolStripSeparator1
             // 

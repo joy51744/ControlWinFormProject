@@ -38,7 +38,7 @@ namespace ControlWinFormProject
         }
 
         private void buttonCheckedListBox_Click(object sender, EventArgs e)
-        {/*https://sso-moocs.hk.edu.tw/media/6450*/
+        {
             CheckedListBox checkedListBox = new CheckedListBox();
             this.Visible = false;
             checkedListBox.Show();
@@ -53,7 +53,6 @@ namespace ControlWinFormProject
 
         private void buttonComboBox_Click(object sender, EventArgs e)
         {
-            //http://csharp.net-informations.com
             ComboBox comboBox = new ComboBox();
             this.Visible = false;
             comboBox.Show();
@@ -61,7 +60,6 @@ namespace ControlWinFormProject
 
         private void buttonListBox_Click(object sender, EventArgs e)
         {
-            //https://fgchen.com/wp/過河問題：農夫、羊、狼、青菜/
             ListBox listBox = new ListBox();
             this.Visible = false;
             listBox.Show();
