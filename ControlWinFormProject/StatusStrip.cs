@@ -23,5 +23,35 @@ namespace ControlWinFormProject
             this.Visible = false;
             main.Show();
         }
+
+        private void textBox1_MouseHover(object sender, EventArgs e)
+        {
+            toolStripLabel1.Text = "Enter the username with minimun one character.";
+        }
+
+        private void textBox1_MouseLeave(object sender, EventArgs e)
+        {
+            toolStripLabel1.Text = "";
+        }
+
+        private void textBox2_MouseHover(object sender, EventArgs e)
+        {
+            toolStripLabel1.Text = "Enter the password with minimun one character.";
+        }
+
+        private void button1_MouseHover(object sender, EventArgs e)
+        {
+            toolStripLabel1.Text = "Click to Login";
+        }
+
+        private void button1_MouseLeave(object sender, EventArgs e)
+        {
+            toolStripLabel1.Text = "";
+        }
+
+        private void StatusStrip_Load(object sender, EventArgs e)
+        {
+            toolStripLabel1.BackColor = Color.SkyBlue;
+        }
     }
 }

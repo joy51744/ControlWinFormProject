@@ -76,29 +76,23 @@
     <Compile Include="ControlMainForm.Designer.cs">
       <DependentUpon>ControlMainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="DateTimePicker.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="DateTimePicker.Designer.cs">
-      <DependentUpon>DateTimePicker.cs</DependentUpon>
-    </Compile>
     <Compile Include="FontDialog.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FontDialog.Designer.cs">
       <DependentUpon>FontDialog.cs</DependentUpon>
     </Compile>
-    <Compile Include="ListBox.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ListBox.Designer.cs">
-      <DependentUpon>ListBox.cs</DependentUpon>
-    </Compile>
     <Compile Include="MenuStrip.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MenuStrip.Designer.cs">
       <DependentUpon>MenuStrip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MonthCalendar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MonthCalendar.Designer.cs">
+      <DependentUpon>MonthCalendar.cs</DependentUpon>
     </Compile>
     <Compile Include="NumericUpDown.cs">
       <SubType>Form</SubType>
@@ -160,6 +154,12 @@
     <Compile Include="StatusStrip.Designer.cs">
       <DependentUpon>StatusStrip.cs</DependentUpon>
     </Compile>
+    <Compile Include="TabControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TabControl.Designer.cs">
+      <DependentUpon>TabControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="TrackBar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -178,17 +178,14 @@
     <EmbeddedResource Include="ControlMainForm.resx">
       <DependentUpon>ControlMainForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DateTimePicker.resx">
-      <DependentUpon>DateTimePicker.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FontDialog.resx">
       <DependentUpon>FontDialog.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ListBox.resx">
-      <DependentUpon>ListBox.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="MenuStrip.resx">
       <DependentUpon>MenuStrip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MonthCalendar.resx">
+      <DependentUpon>MonthCalendar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="NumericUpDown.resx">
       <DependentUpon>NumericUpDown.cs</DependentUpon>
@@ -222,6 +219,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="StatusStrip.resx">
       <DependentUpon>StatusStrip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TabControl.resx">
+      <DependentUpon>TabControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TrackBar.resx">
       <DependentUpon>TrackBar.cs</DependentUpon>

@@ -129,7 +129,7 @@
             this.buttonListBox.Name = "buttonListBox";
             this.buttonListBox.Size = new System.Drawing.Size(130, 45);
             this.buttonListBox.TabIndex = 6;
-            this.buttonListBox.Text = "農夫過河";
+            this.buttonListBox.Text = "會員資訊";
             this.buttonListBox.UseVisualStyleBackColor = true;
             this.buttonListBox.Click += new System.EventHandler(this.buttonListBox_Click);
             // 
@@ -140,7 +140,7 @@
             this.buttonCheckedListBox.Name = "buttonCheckedListBox";
             this.buttonCheckedListBox.Size = new System.Drawing.Size(130, 45);
             this.buttonCheckedListBox.TabIndex = 3;
-            this.buttonCheckedListBox.Text = "商店下單系統";
+            this.buttonCheckedListBox.Text = "大樂透";
             this.buttonCheckedListBox.UseVisualStyleBackColor = true;
             this.buttonCheckedListBox.Click += new System.EventHandler(this.buttonCheckedListBox_Click);
             // 
@@ -239,9 +239,9 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(230, 280);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(42, 12);
+            this.label7.Size = new System.Drawing.Size(59, 12);
             this.label7.TabIndex = 121;
-            this.label7.Text = "ListBox";
+            this.label7.Text = "TabControl";
             // 
             // label8
             // 
@@ -324,9 +324,9 @@
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(632, 138);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(79, 12);
+            this.label10.Size = new System.Drawing.Size(78, 12);
             this.label10.TabIndex = 133;
-            this.label10.Text = "DateTimePicker";
+            this.label10.Text = "MonthCalendar";
             // 
             // buttonDateTimePicker
             // 
@@ -335,6 +335,7 @@
             this.buttonDateTimePicker.Name = "buttonDateTimePicker";
             this.buttonDateTimePicker.Size = new System.Drawing.Size(130, 45);
             this.buttonDateTimePicker.TabIndex = 132;
+            this.buttonDateTimePicker.Text = "商店下單系統";
             this.buttonDateTimePicker.UseVisualStyleBackColor = true;
             this.buttonDateTimePicker.Click += new System.EventHandler(this.buttonDateTimePicker_Click);
             // 
